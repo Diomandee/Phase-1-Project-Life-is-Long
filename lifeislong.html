@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meaning Full Collections</title>
+  <link href="lifeislong.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <header class="header">
+    <img class="img" src="HQ Transparent Image-01.png">
+      <div class="para">
+        <p>Searching for approaches to improve your life? Bring happiness back? Free yourself of stress and boost your energy? Look no more! Here is the coolest and least demanding approach to come close to your most profound contemplations and desires. With 50 cards to choose from, magnificent questions and with many uses. These electrifying cards shouldn't be absent from your hands! Every Card fills an alternate need. Accomplish any goals, guide to happiness and most importantly to illuminate your life. Challenge Yourself, Unleash Your Thoughts, Explore Your Full Potential and Feel Great Again! The process is simple. Select a card these card, Scan the QR and read the question/mantra/challenge and Let the games begin! The cards are dynamic so questions, mantra and challenges will change periodically. Since the are digital cards, they become easily accessible. No power on earth can make you feel uncomfortable about yourself. It is just your inner feelings and low self-esteem.</p>
+      </div>
+      <p style="text-align:center">
+        <button class="Generate-Card"> Generate Random Card</button>
+        
+  </header>
+  <div class="container">
+    <div id="card-collection"></div>
+  </div>
+  <div class="single-container">
+    <div id="single-collection"></div>
+      <div class="plusandminus">
+        <h1 id='likes'>0</h1>
+        <button id='minus' > ➖ </button>
+        <button id='plus' > ❤️ </button>
+      </div>
+  </div>
+  <div class="container-Questions">
+    <div class="questionsImg">
+      <div class="numbertext">1</div>
+        <img src="https://lh3.googleusercontent.com/4Wubb0vhobASC22R-7GB2xFOg3Fy6haiCR4Ni3pDWYC1BUzwQhlnzkErZm6nxcWugScw5nSbJ4NrpFMuv69r8olRy1i-Di2_n3g0=s0" style="width:100%">
+        
+    </div>
+    <div class="questionsImg">
+      <div class="numbertext">2</div>
+        <img src="https://lh3.googleusercontent.com/OY9418B_iD3AmIBymg2GJnTZqNjytO3bdgUdiWdahPLx7OGKqKW21I-3cFPpRZgztHMOtdOIrfCZQuxmLsxbQ4tr_YykJI8iWwZ5yg=s0" style="width:100%">
+    </div>
+    <div class="questionsImg">
+      <div class="numbertext">3</div>
+        <img src="https://lh3.googleusercontent.com/uLLEVLOVaOk6OimM4_ySkJAkYQr3zPPwG1aOalE3IfI3rIYEU-Bc55cGKOIAgnWIwDuJD7yPW3-cmXf8uufPXp8PsKeJHx7e6UDLcA=s0" style="width:100%">
+    </div>
+    <div class="questionsImg">
+      <div class="numbertext">4</div>
+        <img src="https://lh3.googleusercontent.com/63aduCB1hDqhi6JE63ue3l5UIX1bYEqbRmP8L9FnMlGTfL8DN0IkMZITpVQU8phLZVlmQQTqrSPFAIUUfbGUimy-HScXKQYiEXlZlA=s0" style="width:100%">
+    </div>
+    <div class="questionsImg">
+      <div class="numbertext">5</div>
+        <img src="https://lh3.googleusercontent.com/byyTpfwZFV8q6TROJH9TWp8IpKEvwV2lyU2JceVwffDMV2v8lB2mQH0xHf19dONkLVE6tbEoYhKZTGbjD0YOLG5-Y0GsTgCvONTQAQ=s0" style="width:100%">
+    </div>
+    <div class="questionsImg">
+      <div class="numbertext">6</div>
+        <img src="https://lh3.googleusercontent.com/rPHj8gfCfqs7V08V2FcNtEL2-y4wDRHr4F6JgMclfpRUQ6s9keIGvqV7s3auCIKUV7JBPV8rjNJooijjPNELj-_1c1uuiuAymIsu=s0" style="width:100%">
+    </div>
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <!-- Thumbnail images -->
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" img src="https://lh3.googleusercontent.com/4Wubb0vhobASC22R-7GB2xFOg3Fy6haiCR4Ni3pDWYC1BUzwQhlnzkErZm6nxcWugScw5nSbJ4NrpFMuv69r8olRy1i-Di2_n3g0=s0" style="width:100%" onclick="currentSlide(1)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" mg src="https://lh3.googleusercontent.com/OY9418B_iD3AmIBymg2GJnTZqNjytO3bdgUdiWdahPLx7OGKqKW21I-3cFPpRZgztHMOtdOIrfCZQuxmLsxbQ4tr_YykJI8iWwZ5yg=s0" style="width:100%" onclick="currentSlide(2)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://lh3.googleusercontent.com/uLLEVLOVaOk6OimM4_ySkJAkYQr3zPPwG1aOalE3IfI3rIYEU-Bc55cGKOIAgnWIwDuJD7yPW3-cmXf8uufPXp8PsKeJHx7e6UDLcA=s0" style="width:100%" onclick="currentSlide(3)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://lh3.googleusercontent.com/63aduCB1hDqhi6JE63ue3l5UIX1bYEqbRmP8L9FnMlGTfL8DN0IkMZITpVQU8phLZVlmQQTqrSPFAIUUfbGUimy-HScXKQYiEXlZlA=s0" style="width:100%" onclick="currentSlide(4)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://lh3.googleusercontent.com/byyTpfwZFV8q6TROJH9TWp8IpKEvwV2lyU2JceVwffDMV2v8lB2mQH0xHf19dONkLVE6tbEoYhKZTGbjD0YOLG5-Y0GsTgCvONTQAQ=s0" style="width:100%" onclick="currentSlide(5)" alt="">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://lh3.googleusercontent.com/rPHj8gfCfqs7V08V2FcNtEL2-y4wDRHr4F6JgMclfpRUQ6s9keIGvqV7s3auCIKUV7JBPV8rjNJooijjPNELj-_1c1uuiuAymIsu=s0" style="width:100%" onclick="currentSlide(6)" alt="">
+    </div>
+  </div>
+</div>
+<button class="Generate-Questions"> Generate Questions & Poems</button>
+<button class="newCard">Get a New Card</button>
+
+<div class="match-container">
+  <p style="text-align:center">
+      <form id="match-form">
+        <h4 class="matchQ">Find The Match</h4>
+          <input
+            type="text"
+            name="name"
+            value=""
+            placeholder="Enter a The Question ID"
+            class="input-question"
+          /> 
+          <br />
+          <input
+          type="text"
+          name="namePoem"
+          value=""
+          placeholder="Enter a The Poem ID"
+          class="input-question"
+        /> 
+          <input 
+          type="submit"
+          name="submit"
+          value="Match"
+          class="submit"
+        />
+</div>
+<button class="restart">Play Again</button>
+
+</div>
+<div class="container-Poems">
+  <div class="poemsImg">
+    <div class="numbertextt">1</div>
+      <img src="https://lh3.googleusercontent.com/aPyaEXAg6xpWXE8rDBlT4-nwhgS2s4ZNm9-NuJl-lkVupG2y6kZHlvIG0xfzKLoX2yPhto8XyB4V2kFA7Fyjpogk6TRed_6EzjxdDQ=s0" style="width:100%">
+      
+  </div>
+  <div class="poemsImg">
+    <div class="numbertextt">2</div>
+      <img src="https://lh3.googleusercontent.com/rpS1-fIk-wBPussd231enK7Oe8leIkQID6JqJrk9GChq7iiiFfSaJZyk2YzHGKIXsQZo7_-vTnWYSHfZnu4a8ewljqySIRMsVVP5xQ=s0" style="width:100%">
+  </div>
+  <div class="poemsImg">
+    <div class="numbertextt">3</div>
+      <img src="https://lh3.googleusercontent.com/6ZLN5s1m08oWF2ikXyBCnT-C36yw3h-RjZm1UfvtQd5Ox5t9Z_-rpXB-CFEtQvVTZKgSzBPirGGDXHCMP1qKidt8xzdc429-I3yt=s0" style="width:100%">
+  </div>
+  <div class="poemsImg">
+    <div class="numbertextt">4</div>
+      <img src="https://lh3.googleusercontent.com/P3T3KbuBU8WM6hjTsaP0107jCYbDHY55lzYuITQoG9-p-x9gCC0tBcgxa5rw7fLqTW_JWqypaYwKo_1zXx4ivLcGcEuwkSqi-Xci_w=s0" style="width:100%">
+  </div>
+  <div class="poemsImg">
+    <div class="numbertextt">5</div>
+      <img src="https://lh3.googleusercontent.com/w--OJ68xRycYONk-d0f5HRno9Ns9LOsudwcGsUiG3PsnY0zxTW38CowUYQVOpjY-hAYOU1lOJSz5gfabOY339CHdpe64pVGZj-MJ=s0" style="width:100%">
+  </div>
+  <div class="poemsImg">
+    <div class="numbertextt">6</div>
+      <img src="https://lh3.googleusercontent.com/OqLqBgqCAt1AAR7kAH-OukGJjt3Fufc3RHCL0qGBkQe61WNkxVSycFC4UEJz5RYrG05kLtMiijB7umTCQR841WO4pKor3-P5PKg_Vw=s0" style="width:100%">
+  </div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlidesPoem(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlidesPoem(1)">&#10095;</a>
+   <!-- Image text -->
+  <div class="caption-con">
+    <p id="captionPoems"></p>
+  </div>
+  <!-- Thumbnail images -->
+<div class="row">
+  <div class="column">
+    <img class="demo cursor" img src="https://lh3.googleusercontent.com/aPyaEXAg6xpWXE8rDBlT4-nwhgS2s4ZNm9-NuJl-lkVupG2y6kZHlvIG0xfzKLoX2yPhto8XyB4V2kFA7Fyjpogk6TRed_6EzjxdDQ=s0" style="width:100%" onclick="currentSlide(1)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" mg src="https://lh3.googleusercontent.com/rpS1-fIk-wBPussd231enK7Oe8leIkQID6JqJrk9GChq7iiiFfSaJZyk2YzHGKIXsQZo7_-vTnWYSHfZnu4a8ewljqySIRMsVVP5xQ=s0" style="width:100%" onclick="currentSlide(2)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="https://lh3.googleusercontent.com/6ZLN5s1m08oWF2ikXyBCnT-C36yw3h-RjZm1UfvtQd5Ox5t9Z_-rpXB-CFEtQvVTZKgSzBPirGGDXHCMP1qKidt8xzdc429-I3yt=s0" style="width:100%" onclick="currentSlide(3)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="https://lh3.googleusercontent.com/P3T3KbuBU8WM6hjTsaP0107jCYbDHY55lzYuITQoG9-p-x9gCC0tBcgxa5rw7fLqTW_JWqypaYwKo_1zXx4ivLcGcEuwkSqi-Xci_w=s0" style="width:100%" onclick="currentSlide(4)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="https://lh3.googleusercontent.com/w--OJ68xRycYONk-d0f5HRno9Ns9LOsudwcGsUiG3PsnY0zxTW38CowUYQVOpjY-hAYOU1lOJSz5gfabOY339CHdpe64pVGZj-MJ=s0" style="width:100%" onclick="currentSlide(5)" alt="">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="https://lh3.googleusercontent.com/OqLqBgqCAt1AAR7kAH-OukGJjt3Fufc3RHCL0qGBkQe61WNkxVSycFC4UEJz5RYrG05kLtMiijB7umTCQR841WO4pKor3-P5PKg_Vw=s0" style="width:100%" onclick="currentSlide(6)" alt="">
+  </div>
+</div>
+</div>
+
+  <script src="lifeislong.js"></script>
+</body>
+</html>
+
+
+
